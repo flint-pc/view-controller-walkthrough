@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 
+//4. You can also declare property here. This place is called extension.
+//however, any property and method declare here won't be publicly accesible.
+@property (assign, nonatomic) BOOL viewLoaded;
+
 @end
 
 @implementation ViewController
