@@ -32,14 +32,7 @@
   _bgColor = [UIColor blueColor];
   
   //7.This is how you call an instance method
-  ViewController *viewController = [ViewController new];
-  [viewController setupBackgroundColor];
-  
-  ViewController *viewController2 = [ViewController new];
-  [viewController2 setupBackgroundColor];
-  
-  //This is how you call a class method
-  [ViewController createSubviewHierachy];
+  [self countNumberOfView:3 toChangeColor:[UIColor blueColor]];
 }
 
 /**
@@ -54,6 +47,19 @@
  *  This is a class method
  */
 + (void)createSubviewHierachy
+{
+
+}
+
+/**
+ *  8. This is how you would pass a paramenter to a method
+ */
+- (void)setUpMoreBackgroundColor:(UIColor *)color
+{
+
+}
+
+- (void)countNumberOfView:(NSInteger)count toChangeColor:(UIColor *)color
 {
 
 }
