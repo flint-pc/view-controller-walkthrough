@@ -13,6 +13,22 @@
  */
 @interface ViewController : UIViewController
 
+/**
+ *  3.This is how to declare property
+ *  strong mean pointer to an object (with a *)
+ *  nonatomic means not thread safe, but faster
+ *  most the time we will use nonatomic
+ */
+@property (strong, nonatomic) UIColor *bgColor;
+
+/**
+ *  assign for primitive data type
+ *  atomic means thread safe (sort of), but slower.
+ */
+@property (assign, atomic) NSInteger numberOfView;
+
+//research item: what are the primitve data types in objective C
+//put answer here:
 
 @end
 
