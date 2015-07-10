@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+  //1. this method is called first when application launch. Original you would have to setup your view controller here, but because we are using storyboard, everything is handled behind the scene. So no code here.
   return YES;
 }
 
