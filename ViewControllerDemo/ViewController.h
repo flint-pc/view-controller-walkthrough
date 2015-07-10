@@ -28,7 +28,7 @@
 @property (assign, atomic) NSInteger numberOfView;
 
 //research item: what are the primitve data types in objective C
-//put answer here:
+//put answer here: char, int, float, double, struct, bool
 
 @end
 
