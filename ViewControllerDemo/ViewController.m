@@ -33,6 +33,9 @@
   
   //7.This is how you call an instance method
   [self countNumberOfView:3 toChangeColor:[UIColor blueColor]];
+  
+  //Exercise: how do you set the background color of the root view on this view controller to gray?
+  //put your code here.
 }
 
 /**
