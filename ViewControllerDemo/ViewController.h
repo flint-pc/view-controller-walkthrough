@@ -29,6 +29,8 @@
 
 //research item: what are the primitve data types in objective C
 //put answer here: char, int, float, double, struct, bool
+//good try: those are C data type, for objective C we will most likely use NSInteger, CGFloat, and BOOL
+//the good thing is that you can use C data type interchangely with objective-C. just have to cast it when needed
 
 @end
 
