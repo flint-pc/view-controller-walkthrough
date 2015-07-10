@@ -25,7 +25,7 @@
  *  assign for primitive data type
  *  atomic means thread safe (sort of), but slower.
  */
-@property (assign, atomic) NSInteger numberOfView;
+@property (assign, nonatomic) NSInteger numberOfView;
 
 //research item: what are the primitve data types in objective C
 //put answer here: char, int, float, double, struct, bool

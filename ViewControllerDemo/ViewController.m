@@ -37,7 +37,12 @@
   //Exercise: how do you set the background color of the root view on this view controller to gray?
   //put your code here.
   //  _bgColor = [UIColor grayColor];
-    self.view.backgroundColor = [UIColor grayColor];
+  self.view.backgroundColor = [UIColor grayColor];
+  
+  self.numberOfView = 8;
+  self.numberOfView = -3;
+  
+  NSLog(@"Value of numberOfView: %d", (int)self.numberOfView);
 }
 
 /**
@@ -67,6 +72,15 @@
 - (void)countNumberOfView:(NSInteger)count toChangeColor:(UIColor *)color
 {
 
+}
+
+- (void)setNumberOfView:(NSInteger)numberOfView
+{
+  if (numberOfView > 0) {
+    _numberOfView = numberOfView;
+  } else {
+    NSLog(@"Do not put negative number");
+  }
 }
 
 @end
