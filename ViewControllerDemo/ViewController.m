@@ -36,6 +36,8 @@
   
   //Exercise: how do you set the background color of the root view on this view controller to gray?
   //put your code here.
+  //  _bgColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor grayColor];
 }
 
 /**
