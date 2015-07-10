@@ -15,6 +15,7 @@
 		0FE35B001B4F409A00A30D38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE35AFE1B4F409A00A30D38 /* LaunchScreen.xib */; };
 		0FE35B0C1B4F409A00A30D38 /* ViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE35B0B1B4F409A00A30D38 /* ViewControllerDemoTests.m */; };
 		0FE35B1D1B4F5A8E00A30D38 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE35B1C1B4F5A8E00A30D38 /* MenuViewController.m */; };
+		0FE35B201B4F62FA00A30D38 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE35B1F1B4F62FA00A30D38 /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		0FE35B0B1B4F409A00A30D38 /* ViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoTests.m; sourceTree = "<group>"; };
 		0FE35B1B1B4F5A8E00A30D38 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		0FE35B1C1B4F5A8E00A30D38 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0FE35B1E1B4F62FA00A30D38 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		0FE35B1F1B4F62FA00A30D38 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				0FE35AEF1B4F409A00A30D38 /* Supporting Files */,
 				0FE35B1B1B4F5A8E00A30D38 /* MenuViewController.h */,
 				0FE35B1C1B4F5A8E00A30D38 /* MenuViewController.m */,
+				0FE35B1E1B4F62FA00A30D38 /* ChildViewController.h */,
+				0FE35B1F1B4F62FA00A30D38 /* ChildViewController.m */,
 			);
 			path = ViewControllerDemo;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				0FE35AF81B4F409A00A30D38 /* ViewController.m in Sources */,
 				0FE35AF51B4F409A00A30D38 /* AppDelegate.m in Sources */,
+				0FE35B201B4F62FA00A30D38 /* ChildViewController.m in Sources */,
 				0FE35AF21B4F409A00A30D38 /* main.m in Sources */,
 				0FE35B1D1B4F5A8E00A30D38 /* MenuViewController.m in Sources */,
 			);

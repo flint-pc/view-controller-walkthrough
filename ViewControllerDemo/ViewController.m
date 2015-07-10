@@ -43,6 +43,8 @@
   self.numberOfView = -3;
   
   NSLog(@"Value of numberOfView: %d", (int)self.numberOfView);
+  
+  [self setUpMoreBackgroundColor:[UIColor grayColor]];
 }
 
 /**
@@ -81,6 +83,11 @@
   } else {
     NSLog(@"Do not put negative number");
   }
+}
+
+- (void)loadAllMyView
+{
+
 }
 
 @end
