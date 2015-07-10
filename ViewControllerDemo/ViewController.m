@@ -32,8 +32,4 @@
   _bgColor = [UIColor blueColor];
 }
 
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-}
-
 @end
