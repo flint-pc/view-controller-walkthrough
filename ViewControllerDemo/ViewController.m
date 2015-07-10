@@ -30,6 +30,32 @@
   //or directly access the internal variable of the property
   //most the time we don't want to do this, but there are exceptions to that
   _bgColor = [UIColor blueColor];
+  
+  //7.This is how you call an instance method
+  ViewController *viewController = [ViewController new];
+  [viewController setupBackgroundColor];
+  
+  ViewController *viewController2 = [ViewController new];
+  [viewController2 setupBackgroundColor];
+  
+  //This is how you call a class method
+  [ViewController createSubviewHierachy];
+}
+
+/**
+ *  6.This is an instance method
+ */
+- (void)setupBackgroundColor
+{
+
+}
+
+/**
+ *  This is a class method
+ */
++ (void)createSubviewHierachy
+{
+
 }
 
 @end
