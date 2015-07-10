@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  2. A view controller is typically described as a screen on the device. There are exception to that, but just assume it is for now.
+ */
 @interface ViewController : UIViewController
 
 
